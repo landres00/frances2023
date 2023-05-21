@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+.barra_navegacion {
+  text-align: center;
+  color: #333333;
+  padding-top: 10px;
+  margin-top: 0;
+  background-color: #0055A4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contenedor_barra{
+  display: flex;
+  justify-content: center;
+}
+.elemental h1{
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.elemental h1:hover {
+  text-decoration: dashed;
+  color: #cdcdcd;
+}
+.iconos {
+  width: 50px;
+  margin: 10px;
+  transition: 0.4s;
+  filter: brightness(1);
+}
+.iconos:hover {
+  filter: brightness(0.5);
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+  color: #0089ff;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container2 table {
+  flex: 1;
+  margin: 0 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.container2 table th,
+.container2 table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.container2 table th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+.container2 table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.container2 table tr:hover {
+  background-color: #bcbaba;
+  color: #0055A4;
+}
+.container2 table img {
+  max-width: 100px;
+  height: auto;
+}
